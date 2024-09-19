@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine ;
+}
+
+
+
+div{
+    border: 2px solid greenyellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: aqua;
+    box-shadow: 0 4px 8px greenyellow ;
+}
+div img{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px blue;
+}
+div p{
+    border: 1px solid rgb(11, 235, 59);
+    padding: 5px;
+    border-radius: 25px;
+    background-color: rgb(26, 196, 196);
+    box-shadow: 0 4px 8px crimson;
+    display: flex;
+    justify-content: center;
+}
+
+div button{
+    width: 150px;
+    height: 30px;
+    border: 2px solid greenyellow;
+    border-radius: 10px;
+    color: blueviolet;
+    background-color: rgb(32, 152, 250);
+    box-shadow: 0 4px 8px;
+}
+div button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: aliceblue;
+}
